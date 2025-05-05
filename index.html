@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html lang="he" dir="rtl">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <link rel="stylesheet" href="style.css">
+  <title>מחשבון ציון סופי בלשון</title>
+</head>
+<body>
+  <div class="frame">
+    <h1>מחשבון ציון סופי בלשון</h1>
+
+    <div class="input-wrapper">
+      <span class="input-badge">49%</span>
+      <input id="bagrut" type="number" placeholder="הזן את ציון הבגרות" />
+    </div>
+
+    <div class="input-wrapper">
+      <span class="input-badge">21%</span>
+      <input id="magen" type="number" placeholder="הזן את ציון המגן" />
+    </div>
+
+    <div class="input-wrapper">
+      <span class="input-badge">30%</span>
+      <input id="yud" type="number" placeholder="הזן את ציון כיתה י" />
+    </div>
+
+    <button id="sum">חישוב הציון הסופי</button>
+
+    <div class="result-box" id="result-box">
+ הציון הסופי שלך
+      <div id="final-score"></div>
+    </div>
+  </div>
+
+  <script src="script.js"></script>
+</body>
+</html>
